@@ -64,6 +64,12 @@
           clickOutsideDeactivates: this.deactivateOnOutsideClick,
           returnFocusOnDeactivate: this.returnFocusOnDeactivate
         }))
+      },
+      onActivate () {
+        this.$emit('activated')
+      },
+      onDeactivate () {
+        this.$emit('deactivated')
       }
     },
     watch: {
@@ -80,12 +86,6 @@
         } else if (!oldVal && val) {
           this.focusTrap.pause()
         }
-      },
-      onActivate () {
-        this.$emit('activated')
-      },
-      onDeactivate () {
-        this.$emit('deactivated')
       }
     }
   }
