@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import createFocusTrap from './focus-trap.js'
+  import createFocusTrap from 'focus-trap'
 
   export default {
     props: {
