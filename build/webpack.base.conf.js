@@ -11,7 +11,8 @@ module.exports = {
     fallback: [path.join(__dirname, '../node_modules')],
     alias: {
       'src': path.resolve(__dirname, '../src'),
-      'src-docs': path.resolve(__dirname, '../src-docs')
+      'src-docs': path.resolve(__dirname, '../src-docs'),
+      'focus-trap': path.resolve(__dirname, 'node_modules/focus-trap/index.js')
     },
     modulesDirectories: ['node_modules', 'shared']
   },
