@@ -3,7 +3,7 @@
     <h3 class="c-main__sub-heading u-gutter">Installation</h3>
     <div class="c-item u-gutter">
       <div class="c-item__description">
-        <p>You have two ways to setup <code>wovue-focus-trap</code>:</p>
+        <p>You have two ways to setup <code>vue-focus-trap</code>:</p>
       </div>
       <h4 class="c-item__heading">NPM</h4>
       <div class="c-item__code-wrapper" v-html="snippets.installation"></div>

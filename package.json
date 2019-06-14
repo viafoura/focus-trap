@@ -1,6 +1,6 @@
 {
   "name": "@viafoura/vue-focus-trap",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A Vue component that traps focus",
   "main": "dist/focus-trap.js",
   "scripts": {
