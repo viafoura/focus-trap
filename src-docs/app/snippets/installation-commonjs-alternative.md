@@ -1,11 +1,11 @@
 ```js
-import {FocusTrap} from 'wovue-focus-trap'
+import { FocusTrap } from '@viafoura/vue-focus-trap';
 
 export default {
   // ...
   components: {
     FocusTrap
-  }
+  },
   // ...
-}
+};
 ```

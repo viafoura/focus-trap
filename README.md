@@ -8,7 +8,7 @@ Forked from the no longer maintained [wovue-focus-trap](https://wovue.github.io/
 
 ## Live examples & Docs
 
-TODO
+[Documentation can be viewed at http://beta.viafoura.com/focus-trap/](http://beta.viafoura.com/focus-trap/)
 
 ## Features
 

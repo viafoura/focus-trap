@@ -1,6 +1,6 @@
 {
   "name": "@viafoura/vue-focus-trap",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A Vue component that traps focus",
   "main": "dist/focus-trap.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/viafoura/focus-trap/issues"
   },
-  "homepage": "https://github.com/viafoura/focus-trap",
+  "homepage": "http://beta.viafoura.com/focus-trap/",
   "peerDependencies": {
     "vue": "^2.0.0"
   },

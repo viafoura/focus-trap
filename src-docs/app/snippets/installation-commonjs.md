@@ -1,6 +1,6 @@
 ```js
-import Vue from 'vue'
-import FocusTrap from 'wovue-focus-trap'
+import Vue from 'vue';
+import { FocusTrap } from '@viafoura/vue-focus-trap';
 
-Vue.use(FocusTrap)
+Vue.component('focus-trap', FocusTrap);
 ```
