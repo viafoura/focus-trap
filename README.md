@@ -32,7 +32,7 @@ Install the plugin
 
 ```js
 import Vue from 'vue';
-import { FocusTrap } from '@viafoura/focus-trap';
+import { FocusTrap } from '@viafoura/vue-focus-trap';
 
 // Use it as a global component...
 Vue.component('focus-trap', FocusTrap);
@@ -47,6 +47,10 @@ export const MyComponent = {
 }
 ```
 
+### Browser
+
+TODO
+
 ## Basic Usage
 
 ```html
@@ -58,7 +62,7 @@ export const MyComponent = {
 ```
 
 ```js
-import { FocusTrap } from '@viafoura/focus-trap';
+import { FocusTrap } from '@viafoura/vue-focus-trap';
 
 export default {
   data () {
