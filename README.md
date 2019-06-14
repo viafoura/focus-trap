@@ -1,17 +1,14 @@
-> ## Vue 2
-
-> `$ npm install wovue-focus-trap@next --save`
-
-
 # FocusTrap
 
 > A Vue component that traps focus
 
 This component is a light wrapper around [focus-trap](https://github.com/davidtheclark/focus-trap), tailored to your Vue-specific needs.
 
+Forked from the no longer maintained [wovue-focus-trap](https://wovue.github.io/focus-trap)
+
 ## Live examples & Docs
 
-[https://wovue.github.io/focus-trap](https://wovue.github.io/focus-trap)
+TODO
 
 ## Features
 
@@ -23,19 +20,31 @@ This component is a light wrapper around [focus-trap](https://github.com/davidth
 
 Please read [the focus-trap documentation](https://github.com/davidtheclark/focus-trap#focus-trap) to understand what a focus trap is, what happens when a focus trap is activated, and what happens when one is deactivated.
 
+
+### NPM
 Install the package using npm
 
 ```sh
-$ npm install wovue-focus-trap --save
+$ npm install --save @viafoura/vue-focus-trap
 ```
 
 Install the plugin
 
 ```js
-import Vue from 'vue'
-import FocusTrap from 'wovue-focus-trap'
+import Vue from 'vue';
+import { FocusTrap } from '@viafoura/focus-trap';
 
-Vue.use(FocusTrap)
+// Use it as a global component...
+Vue.component('focus-trap', FocusTrap);
+
+// Or as a local component:
+export const MyComponent = {
+  // ...
+  components: {
+    FocusTrap
+  }
+  // ...
+}
 ```
 
 ## Basic Usage
@@ -49,22 +58,27 @@ Vue.use(FocusTrap)
 ```
 
 ```js
+import { FocusTrap } from '@viafoura/focus-trap';
+
 export default {
   data () {
     return {
       isTrapVisible: false,
       isTrapActive: true
-    }
+    };
   },
   methods: {
     mountTrap () {
-      this.isTrapVisible = true
+      this.isTrapVisible = true;
     },
     toggleTrap () {
-      this.isTrapActive = !this.isTrapActive
-    }
-  }
-}
+      this.isTrapActive = !this.isTrapActive;
+    },
+  },
+  components: {
+    FocusTrap
+  },
+};
 ```
 
 ## Development
