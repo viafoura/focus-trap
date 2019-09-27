@@ -31,6 +31,10 @@
       returnFocusOnDeactivate: {
         type: Boolean,
         default: true
+      },
+      allowOutsideClick: {
+        type: Function,
+        default: null
       }
     },
     data () {
@@ -62,7 +66,8 @@
           initialFocus: this.initialFocus,
           escapeDeactivates: this.deactivateOnEsc,
           clickOutsideDeactivates: this.deactivateOnOutsideClick,
-          returnFocusOnDeactivate: this.returnFocusOnDeactivate
+          returnFocusOnDeactivate: this.returnFocusOnDeactivate,
+          allowOutsideClick: this.allowOutsideClick
         }))
       },
       onActivate () {

@@ -65,6 +65,12 @@
               required: false,
               default: '`true`',
               description: 'If `false`, when the trap is deactivated, focus will not return to the element that had focus before activation.'
+            }, {
+              name: 'allowOutsideClick',
+              type: '`Function`',
+              required: false,
+              default: '`null`',
+              description: 'If set to a `Function`, clicking outside the focus trap will execute this function. If the function returns true, the focus trap will allow the click to execute, otherwise it will not.'
             }
           ]
         }
