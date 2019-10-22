@@ -91,6 +91,6 @@
     "wovue-off-canvas": "^1.2.1"
   },
   "dependencies": {
-    "focus-trap": "^5.0.0"
+    "focus-trap": "^5.0.2"
   }
 }
