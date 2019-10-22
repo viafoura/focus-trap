@@ -1,3 +1,3 @@
 ```sh
-$ npm install wovue-focus-trap --save
+$ npm install --save @viafoura/vue-focus-trap
 ```

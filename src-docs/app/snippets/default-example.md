@@ -1,13 +1,13 @@
 ```html
 <button v-dialog:toggle="form-modal">Open A11Y Dialog</button>
-<wv-dialog
+<my-dialog
   class="form-dialog"
   @closed="active = false"
   @opened="active = true"
   ref="form-modal"
   aria-labelledby="modal-title"
 >
-  <wv-focus-trap
+  <focus-trap
     class="form-dialog__content"
     :active="active"
     :deactivate-on-outside-click="true"
@@ -18,8 +18,8 @@
       <label>Email:<input required type="email" placeholder="Give me your email"></label>
       <button type="submit" name="button">Submit</button>
     </form>
-  </wv-focus-trap>
-</wv-dialog>
+  </focus-trap>
+</my-dialog>
 ```
 
 ```js
