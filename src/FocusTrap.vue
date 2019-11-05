@@ -13,6 +13,10 @@
         type: Boolean,
         default: true
       },
+      focusOnActivate: {
+        type: Boolean,
+        default: true
+      },
       paused: {
         type: Boolean,
         default: false
@@ -67,7 +71,8 @@
           escapeDeactivates: this.deactivateOnEsc,
           clickOutsideDeactivates: this.deactivateOnOutsideClick,
           returnFocusOnDeactivate: this.returnFocusOnDeactivate,
-          allowOutsideClick: this.allowOutsideClick
+          allowOutsideClick: this.allowOutsideClick,
+          focusOnActivate: this.focusOnActivate
         }))
       },
       onActivate () {
