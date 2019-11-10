@@ -91,6 +91,6 @@
     "wovue-off-canvas": "^1.2.1"
   },
   "dependencies": {
-    "focus-trap": "^5.0.2"
+    "focus-trap": "git+ssh://git@github.com/dougalg/focus-trap-1.git#28b693"
   }
 }

@@ -71,6 +71,12 @@
               required: false,
               default: '`null`',
               description: 'If set to a `Function`, clicking outside the focus trap will execute this function. If the function returns true, the focus trap will allow the click to execute, otherwise it will not.'
+            }, {
+              name: 'focusOnActivate',
+              type: '`Boolean`',
+              required: false,
+              default: '`true`',
+              description: 'If set to `false` will prevent the focus-trap from forcing focus on activation. *Warning* be careful when using this property as it could easily lead to unexpected behaviour.'
             }
           ]
         }
